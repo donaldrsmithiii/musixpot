@@ -6,6 +6,8 @@ import Featured from './components/featured';
 import MusixInfo from './components/musixinfo';
 import Highlight from './components/highlights';
 import Pricing from './components/pricing';
+import Location from './components/location';
+import Footer from './components/header_footer/Footer';
 class App extends Component {
   render() {
     return (
@@ -15,6 +17,8 @@ class App extends Component {
         <MusixInfo />
         <Highlight />
         <Pricing />
+        <Location />
+        <Footer />
       </div>
     );
   }
